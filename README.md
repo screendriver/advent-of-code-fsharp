@@ -1,10 +1,8 @@
-# Advent of Code 2022 in F#
+# Advent of Code in F#
 
-My [Advent of Code 2022][aoc-2022] solutions in the F# programming language. This repository holds a separate F# console project for each day.
+My [Advent of Code][https://adventofcode.com] solutions in the F# programming language. This repository holds a separate F# script for each day in each year that can be directly executed with `dotnet fsi <path-to-fsx>`.
 
 ## License
 
 This project is released under the GNU GPL-3.0 license.
 Check out the [LICENSE](LICENSE) file for more information.
-
-[aoc-2022]: https://adventofcode.com/2022
