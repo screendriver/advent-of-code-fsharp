@@ -12,4 +12,13 @@ let sumCalories (elveCalories: string) =
 
 let highestTotalCalories = elvesCalories |> Array.map sumCalories |> Array.max
 
-printf "%i" highestTotalCalories
+printf "Solution part 1: %i %s" highestTotalCalories System.Environment.NewLine
+
+let highestTotalCaloriesTopThreeElves =
+    elvesCalories
+    |> Array.map sumCalories
+    |> Array.sortDescending
+    |> Array.take 3
+    |> Array.sum
+
+printf "Solution part 2: %i" highestTotalCaloriesTopThreeElves
